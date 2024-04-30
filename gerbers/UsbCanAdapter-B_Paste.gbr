@@ -1,0 +1,24 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.0-da2b9df05c~171~ubuntu22.04.1*%
+%TF.CreationDate,2023-03-05T16:33:25-08:00*%
+%TF.ProjectId,UsbCanAdapter,55736243-616e-4416-9461-707465722e6b,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.0-da2b9df05c~171~ubuntu22.04.1) date 2023-03-05 16:33:25*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,1.500000X2.500000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J3*%
+X177899999Y-82499999D03*
+X180399999Y-82499999D03*
+X182899999Y-82499999D03*
+X185399999Y-82499999D03*
+X187899999Y-82499999D03*
+%TD*%
+M02*
