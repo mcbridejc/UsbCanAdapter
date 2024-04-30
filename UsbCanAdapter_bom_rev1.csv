@@ -1,0 +1,33 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Mfg Part Number,DK Part Number
+1,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C3 C4 C5,0.1u,C_0603_1608Metric,5,~,,
+2,"Unpolarized capacitor, small symbol",C_Small,C6 C7 C8,4.7u,C_0805_2012Metric,3,~,,
+3,Light emitting diode,LED,D1 D2,LED,LED_0805_2012Metric,2,~,,
+4,"Zener diode, small symbol, filled shape",D_Zener_Small_Filled,D3 D4,TVS,D_0402_1005Metric_Pad0.77x0.64mm_HandSolder,2,~,,
+5,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x05,J3,SWD Pads,SWD_PADS,1,~,,
+6,"Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x04,J1,Screw_Terminal_01x04,1776119-4,1,~,1776119-4,
+7,USB 2.0-only Type-C Receptacle connector,USB_C_Receptacle_USB2.0,J2,USB_C_Receptacle_USB2.0,USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,1,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,,
+8,"Jumper, 2-pole, open",Jumper_2_Open,JP1 JP2 JP3,Jumper,short_jumper,3,~,,
+9,"Resistor, small US symbol",R_Small_US,R3,120,R_0603_1608Metric,1,~,,
+10,"Resistor, small US symbol",R_Small_US,R4 R5,240,R_0603_1608Metric,2,~,,
+11,"Resistor, small US symbol",R_Small_US,R1 R2,5.1k,R_0603_1608Metric,2,~,,
+12,Voltage dependent resistor,Varistor,RV1,TVS MLA Varistor,R_0603_1608Metric,1,~,,
+13,"Push button switch, generic, two pins",SW_Push,SW1,SW_Push,SW_SPST_PTS810,1,~,PTS810 SJM 250 SMTR LFS,CKN10502CT-ND
+14,"250mA Low Quiscent Current LDO, 3.3V output, SOT-23",MCP1700x-330xxTT,U3,MCP1700x-330xxTT,SOT-23,1,http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf,,
+15,"STMicroelectronics Arm Cortex-M0 MCU, 32KB flash, 6KB RAM, 48 MHz, 2.0-3.6V, 38 GPIO, LQFP48",STM32F042C6Tx,U1,STM32F042C6Tx,LQFP-48_7x7mm_P0.5mm,1,https://www.st.com/resource/en/datasheet/stm32f042c6.pdf,,
+16,,ADB3054,U2,~,SOIC-16W_7.5x10.3mm_P1.27mm,1,,ADM3054WBRWZ-RL7,
+
+
+
+
+
+Component Groups:,16
+Component Count:,28
+Fitted Components:,28
+Number of PCBs:,1
+Total components:,28
+Schematic Version:,
+Schematic Date:,
+PCB Variant:,default
+BoM Date:,Sat 18 Mar 2023 11:25:42 AM PDT
+Schematic Source:,UsbCanAdapter.kicad_sch
+KiCad Version:,Eeschema 7.0.0-da2b9df05c~171~ubuntu22.04.1
