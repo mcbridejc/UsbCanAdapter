@@ -3,3 +3,4 @@
 *.kicad_prl
 *.kicad_sch-bak
 *.lck
+fp-info-cache
