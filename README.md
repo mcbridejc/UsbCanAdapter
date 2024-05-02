@@ -21,6 +21,14 @@ dfu-util -D cantact_fw.bin -d 0483:df11 -a 0 -s 0x08000000
 
 ST has a DFU programming tool for windows (and there are others)
 
+## Reminders for using on linux
+
+`sudo ip link set can0 type can bitrate 1000000`
+`sudo ip link set up can0 txqueuelen 1024`
+
+For a GUI, SavvyCAN works. Create the connection as a "QT SerialBus" device, with devicetype "socketcan". It seems the link must be manually brought up and bitrate set on the command line first; savvy can isn't going it (maybe because of permissions?).
+
+
 ## Rev 1 Errata
 
 - The BOOT0 button is backwards. It should be grounded by default and pulled high by the button.
