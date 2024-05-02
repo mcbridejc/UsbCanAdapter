@@ -21,6 +21,15 @@ dfu-util -D cantact_fw.bin -d 0483:df11 -a 0 -s 0x08000000
 
 ST has a DFU programming tool for windows (and there are others)
 
+## Jumpers
+
+There are three shortable jumpers:
+
+- "TERM" connects a 120 ohm termination resistor between CAN_H and CAN_L.
+- "POWER_ISO" (two jumpers) connect the USB 5V and ground to the isolated CAN bus side of the
+  transceiver. If these are left unconnected, the CAN bus is electrically isolated from the MCU/USB
+  side of the board, but 5V must be provided from elsewhere.
+
 ## Reminders for using on linux
 
 `sudo ip link set can0 type can bitrate 1000000`
